@@ -54,3 +54,22 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae mi nisi. Pell
 19. Click **Review + create**.
 20. Click **Create**.
 
+### Part 3: Create a Log Analytics Workspace
+
+1. Type **log analytics** into the search box at the top of the page, and select **Log Analytics workspaces** listed under **Services**.
+2. Click **Create log** analytics workspace.
+3. Next to **Resource group**, select **Honeypotlab**.
+4. Next to **Name**, type in **law-honeypot**.
+   * I had to name it **law-honeypot4** because I did the lab multiple times.
+5. Next to **Region**, select **West US 3**.
+6. Click **Review + Create**.
+7. Click **Create**.
+
+### Part 4: Set Up Microsoft Defender
+
+1. Type **defender** in the search box at the top of the page, and select **Microsoft Defender for Cloud** listed under **Services**.
+2. From the left menu options, select **Environment settings**.
+3. Click the dropdown arrow next to **Azure subscription 1**, and select **law-honeypot**. 
+4. Under **Plan**, turn on **Foundation CSPM** and **Servers**. Then click **Save**.
+5. Select the **Data collection** tab.
+6. Select **All Events**, and click **Save**.
