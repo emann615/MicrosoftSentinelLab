@@ -1,4 +1,4 @@
-# Nessus Essentials Lab: Vulnerability Management
+# Microsoft Sentinel (SIEM) Lab
 
 ## Description
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae mi nisi. Pellentesque et dui a enim cursus lobortis. Aliquam eleifend imperdiet libero, id imperdiet tellus aliquam in. Integer sed fringilla arcu, ac dignissim arcu. Suspendisse nec pellentesque turpis. Donec eget malesuada nunc. Morbi fermentum aliquet magna venenatis tincidunt. Ut imperdiet fermentum quam, malesuada pharetra orci. Quisque auctor ex et cursus aliquet.
