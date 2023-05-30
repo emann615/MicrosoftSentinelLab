@@ -47,7 +47,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae mi nisi. Pell
 12. Next to **Configure network security group**, click **Create new**.
 13. Under **Inbound rules**, click the three dots next to the default rule, and select **Remove**.
 14. Click **+ Add an inbound rule**.
-15. Under **Destination port ranges**, type ** * ** to select all ports.
+15. Under **Destination port ranges**, type "*" to select all ports.
 16. Under **Priority**, type **100**.
 17. Under **Name**, type **DANGER_ANY_IN**.
 18. Click **Add**, and click **OK**. 
