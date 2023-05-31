@@ -180,4 +180,33 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae mi nisi. Pell
 5. Check the **RawData** column to make sure it has all the information that is being collected in the failed_rdp.log file on your virtual machine.
 6. You can perform some more failed logons, and run the query again to see that the new logs are added to the results.
 
+### Part 13: Create a World Map Workbook in Microsoft Sentinel
 
+1. Click the search box at the top of the page, and select **Microsoft Sentinel** listed under **Recent services**.
+2. A pop up will appear that says “Your unsaved edits will be discarded”. Click **OK**.
+3. Click **law-honeypot**.
+   * If you click the toggle next to **New overview**, you can switch between the old overview layout and the new overview layout.
+4. Select **Workbooks** from the left menu options.
+5. Click **Add workbook**.
+6. Click **Edit**.
+7. Delete the default queries by clicking the three dots next to **Edit** on the right side, and selecting **Remove**.
+8. In the pop up that asks “Remove query?” click **Yes**.
+9. Repeat **steps 7-8** to remove the second default query.
+10. Click **Add**, and select **Add query**.
+11. Copy and paste the following query:
+12. Click **Run Query**.
+13. Under **Visualization**, click the dropdown arrow, and select **Map**.
+14. Under **Location info using**, select **Latitude/Longitude**.
+15. Under **Latitude**, select **CSVFields_0**.
+16. Under **Longitude**, select **CSVFields_1**.
+17. Under **Size by**, select **event_count**.
+18. Under **Metric Label**, select **CSVFields_7**.
+19. Under **Metric Value**, select **event_count**.
+20. Click **Apply**. Then click **Save and Close** to save the map settings.
+21. Click **Save** to save the query.
+22. Under **Title**, type **Failed RDP World Map**.
+23. Under **Resource group**, select **Honeypotlab**.
+24. Under **Location**, select **(US) West US 3**.
+25. Click **Apply**.
+26. Click **Auto refresh**, and select **5 minutes**. Then click **Apply**.
+27. Check this map throughout the day to see the number of failed RDP attempts and where they are coming from.
