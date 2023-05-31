@@ -195,47 +195,71 @@ Microsoft Sentinel is a cloud based security information event management (SIEM)
 </br>
 
 3. Next to **Resource group**, select **Honeypotlab**.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 4. Next to **Name**, type in **law-honeypot**.
    * I had to name it **law-honeypot4** because I did the lab multiple times.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 5. Next to **Region**, select **West US 3**.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 6. Click **Review + Create**.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 7. Click **Create**.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
 
 ### Part 4: Set Up Microsoft Defender
 
 1. Type **defender** in the search box at the top of the page, and select **Microsoft Defender for Cloud** listed under **Services**.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/884d747d-a945-437f-baa5-871ff262276b" height="80%" width="80%"/>
 </br>
 </br>
 
 2. From the left menu options, select **Environment settings**.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/82c5cbf5-462c-4984-8aa3-250fc7631f57" height="80%" width="80%"/>
 </br>
 </br>
 
 3. Click the dropdown arrow next to **Azure subscription 1**, and select **law-honeypot**. 
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/98e59133-2cd8-4992-b12b-e629c73f9aa9" height="80%" width="80%"/>
 </br>
 </br>
 
 4. Under **Plan**, turn on **Foundation CSPM** and **Servers**. Then click **Save**.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/d49646c2-8720-45fa-bfab-8df848649bc6" height="80%" width="80%"/>
 </br>
 </br>
 
 5. Select the **Data collection** tab.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/02f09da4-f44c-4f81-8fcb-495dbcf9e247" height="80%" width="80%"/>
 </br>
 </br>
 
 6. Select **All Events**, and click **Save**.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/ff911a69-6f66-44dc-b27c-71093cf0a3f5" height="80%" width="80%"/>
 </br>
 </br>
 
