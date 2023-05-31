@@ -165,7 +165,7 @@ Microsoft Sentinel is a cloud based security information event management (SIEM)
 1. Open the **failed_rdp.log** file, and copy all the information.
 2. Go back to your physical computer, and create a new text document using **Notepad**.
 3. Paste the information from the **failed_rdp.log** file into the Notepad text document.
-4. Save the file to the **Desktop** folder of your physical computer under the name **failed_rdp.log**.
+4. Save the file to the **Desktop** folder of your physical computer under the name **failed_rdp**.
 5. Go back to the log analytics workspace you created in Microsoft Azure named **law-honeypot**.
 6. Select **Tables** from the left menu options.
 7. Click **Create**, and select **New custom log (MMA-based)**.
