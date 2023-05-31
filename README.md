@@ -73,3 +73,50 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae mi nisi. Pell
 4. Under **Plan**, turn on **Foundation CSPM** and **Servers**. Then click **Save**.
 5. Select the **Data collection** tab.
 6. Select **All Events**, and click **Save**.
+
+### Part 5: Connect the Virtual Machine to Your Log Analytics Workspace
+
+1. Type **log analytics** into the search box at the top of the page, and select **Log Analytics workspaces** listed under **Services**.
+2. Click **law-honeypot**.
+3. From the left menu options, select **Virtual machines**.
+4. Click **honeypot-vm**.
+5. Click **Connect**.
+
+### Part 6: Set Up Microsoft Sentinel
+
+1. Open a new tab in your web browser.
+2. Go to https://portal.azure.com/.
+3. Type **sentinel** in the search box at the top of the page, and select **Microsoft Sentinel** listed under **Services**.
+4. Click **Create Microsoft Sentinel**.
+5. Under **Workspace**, select **law-honeypot**, and click **Add**.
+
+### Part 7: Connect to the Virtual Machine
+
+1. Click in the search box at the top of the page, and select **Virtual machines** listed under **Recent services**.
+2. Click **honeypot-vm**.
+3. Under **Public IP address**, copy the IP address of the virtual machine.
+4. Click the **Start**, and run **Remote Desktop Connection**.
+5. Next to **Computer**, paste in the IP address of the virtual machine, and click **Connect**.
+6. Click **More choices**.
+7.Select **Use a different account**.
+8. Type in the username and password you created for the virtual machine, and click **OK**.
+9. Check the box next to **Don’t ask me again for connections to this computer**, and click **Yes**.
+10. On the **Choose privacy settings for your device** screen, set all options to **No**, and click **Accept**.
+11. Click **Yes** when asked “Do you want to allow your PC to be discoverable by other PCs and devices on this network?”
+
+### Part 8: Disable Windows Defender Firewall on the Virtual Machine
+
+1. Click **Start** on your physical computer, and run **Command Prompt**.
+2. Type **ping <virtual machine IP address> -t**, and hit enter.
+  ```
+  ping <virtual machine IP address> -t
+  ```
+  * The ping request will time out because Windows Defender Firewall is blocking connections between your physical computer and the virtual machine.
+3. Go back to the virtual machine, click Start, and open Windows Defender Firewall.
+   * Type wf.msc to go directly to the advanced settings.
+4. Click Windows Defender Firewall Properties.
+5. Go through the Domain Profile, Private Profile, and Public Profile tabs, and set the Firewall state to Off.
+6. Click Apply and Ok. 
+7. Go back to Command Prompt on your physical computer.
+   * The ping request should now be receiving replies back from the virtual machine.
+8. Click Close to exit Command Prompt.
