@@ -202,6 +202,22 @@ Microsoft Sentinel is a cloud based security information event management (SIEM)
 9. Repeat **steps 7-8** to remove the second default query.
 10. Click **Add**, and select **Add query**.
 11. Copy and paste the following query:
+```
+FAILED_RDP_WITH_GEO_CL
+| extend CSVFields  = split(RawData, ',')
+| extend Latitude = tostring(CSVFields[0])
+| extend Longitude = tostring(CSVFields[1]) 
+| extend Destination = tostring(CSVFields[2]) 
+| extend Username = tostring(CSVFields[3])
+| extend Source = tostring(CSVFields[4])
+| extend State = tostring(CSVFields[5])
+| extend Country = tostring(CSVFields[6])
+| extend Label = tostring(CSVFields[7])
+| extend DateTime = todatetime(CSVFields[8])
+| summarize event_count=count() by tostring(CSVFields[4]), tostring(CSVFields[0]), tostring(CSVFields[1]), tostring(CSVFields[6]), tostring(CSVFields[7]), tostring(CSVFields[2])
+| where CSVFields_2 != "samplehost"
+| where CSVFields_4 != ""
+```
 12. Click **Run Query**.
 13. Under **Visualization**, click the dropdown arrow, and select **Map**.
 14. Under **Location info using**, select **Latitude/Longitude**.
