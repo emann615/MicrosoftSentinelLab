@@ -49,25 +49,88 @@ Microsoft Sentinel is a cloud based security information event management (SIEM)
 ### Part 2: Create a Virtual Machine
 
 1. Once you’re logged into Azure, type **Virtual machines** in the search box at the top of the page. Then select **Virtual machines** listed under **Services**.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/4cdd3648-6040-4995-a92c-40cd89f9db9f" height="80%" width="80%"/>
+
 2. Click **Create**, and select **Azure virtual machine**.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/24a405ad-0c78-49c2-bf37-2a803505a633" height="80%" width="80%"/>
+
 3. Next to **Resource group**, click **Create new**.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/21fc764d-611a-4d67-8a61-d060a6eb4471" height="80%" width="80%"/>
+
 4. Name it **Honeypotlab**, and click **OK**.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/01cd5026-1e8b-4790-8365-c78de6906f6d" height="80%" width="80%"/>
+
 5. Next to **Virtual machine name**, type in **honeypot-vm**.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/6bb604d8-18be-4250-b356-415f46c3e2b0" height="80%" width="80%"/>
+
 6. Next to **Image**, select **Windows 10 Pro**.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/27607b0d-b76c-4ce0-8559-bb33fd35431e" height="80%" width="80%"/>
+
 7. Next to **Size**, select **Standard_DS1 - vcpu, 3.5 GiB memory**.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/84b04b88-90bd-4c63-9529-4d219cb5c3fd" height="80%" width="80%"/>
+
 8. Under **Administrator account**, type in a username and password you will use to log in to the virtual machine.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/2725c032-d947-4060-af6b-60e9c890d946" height="80%" width="80%"/>
+
 9. Under **Licensing**, check the box next to **I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights**.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/5f8993ac-729c-4684-8140-f47b6a6672a1" height="80%" width="80%"/>
+
 10. Click **Next** until you reach the **Networking** tab.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/4488ea9a-3c9a-4d2d-9feb-54f868b8db3e" height="80%" width="80%"/>
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/a5008313-a0ac-4a8b-ba79-7b0db981b566" height="80%" width="80%"/>
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/8cc67bac-31a1-4c2c-b604-eda664eaead2" height="80%" width="80%"/>
+
 11. Next to **NIC network security group**, select **Advanced**.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/5a8e1976-d54f-481f-bc4d-996de0fe74d2" height="80%" width="80%"/>
+
 12. Next to **Configure network security group**, click **Create new**.
+
+<img src="" height="80%" width="80%"/>
+
 13. Under **Inbound rules**, click the three dots next to the default rule, and select **Remove**.
+
+<img src="" height="80%" width="80%"/>
+
 14. Click **+ Add an inbound rule**.
+
+<img src="" height="80%" width="80%"/>
+
 15. Under **Destination port ranges**, type "*" to select all ports.
+
+<img src="" height="80%" width="80%"/>
+
 16. Under **Priority**, type **100**.
+
+<img src="" height="80%" width="80%"/>
+
 17. Under **Name**, type **DANGER_ANY_IN**.
+
+<img src="" height="80%" width="80%"/>
+
 18. Click **Add**, and click **OK**. 
+
+<img src="" height="80%" width="80%"/>
+
 19. Click **Review + create**.
+
+<img src="" height="80%" width="80%"/>
+
 20. Click **Create**.
+
+<img src="" height="80%" width="80%"/>
 
 ### Part 3: Create a Log Analytics Workspace
 
