@@ -256,18 +256,51 @@ Microsoft Sentinel is a cloud based security information event management (SIEM)
    * The ping request should now be receiving replies back from the virtual machine.
 8. Click **Close** to exit **Command Prompt**.
 
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 ### Part 9: View Failed Logons in Event Viewer
 
 1. Go back to the virtual machine, click **Start**, and open **Event Viewer**.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/519156a5-7a45-4e9e-bd60-eb151701c8f0" height="80%" width="80%"/>
+</br>
+</br>
+
 2. Click the dropdown arrow next to **Windows Logs**, and select **Security**.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/55d3b04d-993c-4648-9dcb-77b1461fed1f" height="80%" width="80%"/>
+</br>
+</br>
+
 3. Click **Start** on your physical computer, and open **Remote Desktop Connection**.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/d2d810a7-f11e-4fc5-a347-350ee71dc1ce" height="80%" width="80%"/>
+</br>
+</br>
+
 4. Try to log in using a fake username and password.
    * You will see a message that says “Your credentials did not work”.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/1809450d-82a9-4e4a-a723-afdc51d4c8c9" height="80%" width="80%"/>
+</br>
+</br>
+
 5. Go back to the virtual machine, right click inside **Event Viewer**, and click **Refresh**.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/09844c65-62e0-4541-b6a6-e94af99d850a" height="80%" width="80%"/>
+</br>
+</br>
+
 6. Find the entry with **EventID 4625**, and double click it to view the **Event Properties**.
    * This window will show you different information about the security event, such as the account name that was used, the failure reason, and the source network address.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/eb155f68-88a0-4fa1-a987-e4ad2657a942" height="80%" width="80%"/>
+</br>
+</br>
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/fb861163-a49a-42d5-8d35-6f15ffe735bd" height="80%" width="80%"/>
 </br>
 </br>
 
