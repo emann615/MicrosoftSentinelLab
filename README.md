@@ -148,7 +148,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae mi nisi. Pell
 11. Click **Run Script**.
     * The script will take failed RDP events from Windows Event Viewer and use the API key to find the geo location. Then it will output that information into a file named **failed_rdp.log**.
 12. Perform some more failed logons to see them added to the list.
-    * You can find the failed_rdp.log file by opening **File Explorer** and pasting in the following directory path: **C:\ProgramData\**
+    * You can find the failed_rdp.log file by opening **File Explorer** and pasting in the following directory path: **C:\ProgramData**
       * **File format:** latitude, longitude, destination, username, source, state, country, label
 
 ### Part 11: Create a Custom Table in Your Log Analytics Workspace
