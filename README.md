@@ -157,7 +157,7 @@ Microsoft Sentinel is a cloud based security information event management (SIEM)
     * The script will take failed RDP events from Windows Event Viewer and use the API key to find the geolocation. Then it will output that information into a file named **failed_rdp.log**.
 12. Perform some more failed logons to see them added to the list.
     * You can find the failed_rdp.log file by opening **File Explorer** and pasting in the following directory path: **C:\ProgramData**
-      * **File format:** latitude, longitude, destination, username, source, state, country, label
+      * **File format:** latitude, longitude, destination, username, source, state, country, label, datetime
 
 ### Part 11: Create a Custom Table in Your Log Analytics Workspace
 
