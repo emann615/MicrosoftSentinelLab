@@ -145,7 +145,7 @@ Microsoft Sentinel is a cloud based security information event management (SIEM)
 
 1. Click **Start** on the virtual machine, and open **Windows PowerShell ISE**.
 2. Click **New Script**.
-3. Open **Microsoft Edge**, and go to the PowerShell script using the following link:
+3. Open **Microsoft Edge**, and go to the PowerShell script using the following link: https://github.com/emann615/Sentinel-Lab/blob/main/Custom_Security_Log_Exporter.ps1
 4. Copy the script, and paste it into **PowerShell**.
 5. Go to the following link in **Microsoft Edge**: https://ipgeolocation.io/
 6. Click **Get Free API Access**.
