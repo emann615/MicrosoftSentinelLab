@@ -109,6 +109,8 @@ Microsoft Sentinel is a cloud based security information event management (SIEM)
 10. Click **Next** until you reach the **Networking** tab.
 
 <img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/4488ea9a-3c9a-4d2d-9feb-54f868b8db3e" height="80%" width="80%"/>
+</br>
+</br>
 
 <img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/a5008313-a0ac-4a8b-ba79-7b0db981b566" height="80%" width="80%"/>
 </br>
