@@ -229,15 +229,64 @@ Microsoft Sentinel is a cloud based security information event management (SIEM)
 ### Part 7: Connect to the Virtual Machine
 
 1. Click in the search box at the top of the page, and select **Virtual machines** listed under **Recent services**.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/2d66751d-8c2a-439e-a8fc-34bab3ee004b" height="80%" width="80%"/>
+</br>
+</br>
+
 2. Click **honeypot-vm**.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/b34ba596-d4df-4700-9ca0-bac12935a18b" height="80%" width="80%"/>
+</br>
+</br>
+
 3. Under **Public IP address**, copy the IP address of the virtual machine.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/82a4ee29-d626-4401-b603-2e0e19d41987" height="80%" width="80%"/>
+</br>
+</br>
+
 4. Click the **Start**, and run **Remote Desktop Connection**.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/4e2043a5-8110-4a3a-a271-49a5188238b3" height="80%" width="80%"/>
+</br>
+</br>
+
 5. Next to **Computer**, paste in the IP address of the virtual machine, and click **Connect**.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/1bf91e29-b062-4394-89c7-e9ed0906bfc4" height="80%" width="80%"/>
+</br>
+</br>
+
 6. Click **More choices**, and select **Use a different account**.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/fcb74e4b-d880-4628-beb7-d0e8de1c4beb" height="80%" width="80%"/>
+</br>
+</br>
+
 7. Type in the username and password you created for the virtual machine, and click **OK**.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/921fa5b8-a5a4-4fb2-818d-913618a4fb66" height="80%" width="80%"/>
+</br>
+</br>
+
 8. Check the box next to **Don’t ask me again for connections to this computer**, and click **Yes**.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/5bebdfd0-46cc-4e8d-b865-7c9be28f0309" height="80%" width="80%"/>
+</br>
+</br>
+
 9. On the **Choose privacy settings for your device** screen, set all options to **No**, and click **Accept**.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/53c95123-88a7-4af2-8c4e-4ec0d243b16b" height="80%" width="80%"/>
+</br>
+</br>
+
 10. Click **Yes** when asked “Do you want to allow your PC to be discoverable by other PCs and devices on this network?”
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/fa8a919e-0faa-4001-a6d1-c034e34a0373" height="80%" width="80%"/>
+</br>
+</br>
 
 ### Part 8: Disable Windows Defender Firewall on the Virtual Machine
 
