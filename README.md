@@ -169,3 +169,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae mi nisi. Pell
     * **C:\ProgramData\failed_rdp.log**
 14. In the box next to **Custom log name**, type **FAILED_RDP_WITH_GEO**. Then click **Next**.
 15. Click **Create** to create the custom table.
+
+### Part 12: Query the Custom Table
+
+1. Select **Logs** from the left menu options.
+2. Exit the **Queries window**.
+3. Type in **FAILED_RDP_WITH_GEO_CL**, and click **Run**.
+   * If no results are found, you may need to wait 15-20 minutes. Then try to run the query again.
+4. Once the query starts receiving information, view the items listed under **Results**.
+5. Check the **RawData** column to make sure it has all the information that is being collected in the failed_rdp.log file on your virtual machine.
+6. You can perform some more failed logons, and run the query again to see that the new logs are added to the results.
+
+
