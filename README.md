@@ -270,20 +270,70 @@ Microsoft Sentinel is a cloud based security information event management (SIEM)
 ### Part 10: Create a Custom Log File Using PowerShell
 
 1. Click **Start** on the virtual machine, and open **Windows PowerShell ISE**.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 2. Click **New Script**.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 3. Open **Microsoft Edge**, and go to the PowerShell script using the following link: https://github.com/emann615/Sentinel-Lab/blob/main/Custom_Security_Log_Exporter.ps1
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 4. Copy the script, and paste it into **PowerShell**.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 5. Go to the following link in **Microsoft Edge**: https://ipgeolocation.io/
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 6. Click **Get Free API Access**.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 7. Fill out the name, email, and password information, and click **Sign Up**.
    * You can also sign up using a Google or GitHub account.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/76b77049-3d21-4dd7-90a6-849bf515c396" height="80%" width="80%"/>
+</br>
+</br>
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/6de4dab0-96ed-47a7-be2a-0b32a192d9bd" height="80%" width="80%"/>
+</br>
+</br>
+
 8. Once you are logged in, copy the API key.
+
 9. Paste the API key into the Powershell script next to **$API_KEY**.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/9133d076-30ec-41cb-a3ec-7c93c513fd4a" height="80%" width="80%"/>
+</br>
+</br>
+
 10. Save the PowerShell script under the name **Log_Exporter**.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/0d3b8679-b8cf-4010-b7b6-f3b0d75edb0d" height="80%" width="80%"/>
+</br>
+</br>
+
 11. Click **Run Script**.
     * The script will take failed RDP events from Windows Event Viewer and use the API key to find the geolocation. Then it will output that information into a file named **failed_rdp.log**.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/5809ab63-5c42-4e0c-9898-a28ad13069aa" height="80%" width="80%"/>
 </br>
 </br>
 
@@ -291,7 +341,7 @@ Microsoft Sentinel is a cloud based security information event management (SIEM)
     * You can find the failed_rdp.log file by opening **File Explorer** and pasting in the following directory path: **C:\ProgramData**
       * **File format:** latitude, longitude, destination, username, source, state, country, label, datetime
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/109a1af1-b061-4f50-9dfe-79fe7639d210" height="80%" width="80%"/>
 </br>
 </br>
 
