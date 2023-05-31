@@ -120,3 +120,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae mi nisi. Pell
 7. Go back to **Command Prompt** on your physical computer.
    * The ping request should now be receiving replies back from the virtual machine.
 8. Click **Close** to exit **Command Prompt**.
+
+### Part 9: View Failed Logons in Event Viewer
+
+1. Go back to the virtual machine, click **Start**, and open **Event Viewer**.
+2. Click the dropdown arrow next to **Windows Logs**, and select **Security**.
+3. Click **Start** on your physical computer, and open **Remote Desktop Connection**.
+4. Try to log in using a fake username and password.
+   * You will see a message that says “Your credentials did not work”.
+5. Go back to the virtual machine, right click inside **Event Viewer**, and click **Refresh**.
+6. Find the entry with **EventID 4625**, and double click it to view the **Event Properties**.
+   * This window will show you different information about the security event, such as the account name that was used, the failure reason, and the source network address.
