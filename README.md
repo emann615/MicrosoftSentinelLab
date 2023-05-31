@@ -67,7 +67,7 @@ Microsoft Sentinel is a cloud based security information event management (SIEM)
 ### Part 3: Create a Log Analytics Workspace
 
 1. Type **log analytics** into the search box at the top of the page, and select **Log Analytics workspaces** listed under **Services**.
-2. Click **Create log** analytics workspace.
+2. Click **Create log analytics workspace**.
 3. Next to **Resource group**, select **Honeypotlab**.
 4. Next to **Name**, type in **law-honeypot**.
    * I had to name it **law-honeypot4** because I did the lab multiple times.
