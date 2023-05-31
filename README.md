@@ -175,7 +175,7 @@ Microsoft Sentinel is a cloud based security information event management (SIEM)
 11. Make sure the information under **Records** looks correct. Then click **Next**.
 12. Under **Type**, select **Windows**.
 13. Under **Path**, type in the path to the **failed_rdp.log** file on the virtual machine. Then click **Next**.
-    * **C:\ProgramData\failed_rdp.log**
+    * Path: **C:\ProgramData\failed_rdp.log**
 14. In the box next to **Custom log name**, type **FAILED_RDP_WITH_GEO**. Then click **Next**.
 15. Click **Create** to create the custom table.
 
