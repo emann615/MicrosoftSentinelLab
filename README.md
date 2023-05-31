@@ -107,12 +107,11 @@ Microsoft Sentinel is a cloud based security information event management (SIEM)
 3. Under **Public IP address**, copy the IP address of the virtual machine.
 4. Click the **Start**, and run **Remote Desktop Connection**.
 5. Next to **Computer**, paste in the IP address of the virtual machine, and click **Connect**.
-6. Click **More choices**.
-7.Select **Use a different account**.
-8. Type in the username and password you created for the virtual machine, and click **OK**.
-9. Check the box next to **Don’t ask me again for connections to this computer**, and click **Yes**.
-10. On the **Choose privacy settings for your device** screen, set all options to **No**, and click **Accept**.
-11. Click **Yes** when asked “Do you want to allow your PC to be discoverable by other PCs and devices on this network?”
+6. Click **More choices**, and select **Use a different account**.
+7. Type in the username and password you created for the virtual machine, and click **OK**.
+8. Check the box next to **Don’t ask me again for connections to this computer**, and click **Yes**.
+9. On the **Choose privacy settings for your device** screen, set all options to **No**, and click **Accept**.
+10. Click **Yes** when asked “Do you want to allow your PC to be discoverable by other PCs and devices on this network?”
 
 ### Part 8: Disable Windows Defender Firewall on the Virtual Machine
 
