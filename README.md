@@ -221,17 +221,18 @@ FAILED_RDP_WITH_GEO_CL
 ```
 12. Click **Run Query**.
 13. Under **Visualization**, click the dropdown arrow, and select **Map**.
-14. Under **Location info using**, select **Latitude/Longitude**.
-15. Under **Latitude**, select **CSVFields_0**.
-16. Under **Longitude**, select **CSVFields_1**.
-17. Under **Size by**, select **event_count**.
-18. Under **Metric Label**, select **CSVFields_7**.
-19. Under **Metric Value**, select **event_count**.
-20. Click **Apply**. Then click **Save and Close** to save the map settings.
-21. Click **Save** to save the query.
-22. Under **Title**, type **Failed RDP World Map**.
-23. Under **Resource group**, select **Honeypotlab**.
-24. Under **Location**, select **(US) West US 3**.
-25. Click **Apply**.
-26. Click **Auto refresh**, and select **5 minutes**. Then click **Apply**.
-27. Check this map throughout the day to see the number of failed RDP attempts and where they are coming from.
+14. Add the following settings:
+    * Location info using: **Latitude/Longitude**
+    * Latitude: **CSVFields_0**
+    * Longitude: **CSVFields_1**
+    * Size by: **event_count**
+    * Metric Label: **CSVFields_7**
+    * Metric Value: **event_count**
+15. Click **Apply**. Then click **Save and Close** to save the map settings.
+16. Click **Save** to save the query.
+17. Under **Title**, type **Failed RDP World Map**.
+18. Under **Resource group**, select **Honeypotlab**.
+19. Under **Location**, select **(US) West US 3**.
+20. Click **Apply**.
+21. Click **Auto refresh**, and select **5 minutes**. Then click **Apply**.
+22. Check this map throughout the day to see the number of failed RDP attempts and where they are coming from.
