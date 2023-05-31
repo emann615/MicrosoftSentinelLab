@@ -39,7 +39,12 @@ Microsoft Sentinel is a cloud based security information event management (SIEM)
 ### Part 1: Create a Free Azure Account
 
 1. Go to https://azure.microsoft.com/en-us/free/ in your web browser, and click **Start free**.
+
+![SEIM Lab 1-1](https://github.com/emann615/MicrosoftSentinelLab/assets/117882385/2f826365-d020-4ddc-b9d9-18c2d7a46f91)
+
 2. Create or sign in with a Microsoft account.
+
+![SEIM Lab 1-2](https://github.com/emann615/MicrosoftSentinelLab/assets/117882385/b1105114-239b-4fdf-bd78-828dc89b6bbe)
 
 ### Part 2: Create a Virtual Machine
 
