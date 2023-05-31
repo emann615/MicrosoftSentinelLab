@@ -305,15 +305,56 @@ Microsoft Sentinel is a cloud based security information event management (SIEM)
 14. In the box next to **Custom log name**, type **FAILED_RDP_WITH_GEO**. Then click **Next**.
 15. Click **Create** to create the custom table.
 
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 ### Part 12: Query the Custom Table
 
 1. Select **Logs** from the left menu options.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/8cde1055-22f0-45e5-9e29-939c9b8a447b" height="80%" width="80%"/>
+</br>
+</br>
+
 2. Exit the **Queries window**.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/366cf456-b8e7-4b45-a245-d61c3dd4ee73" height="80%" width="80%"/>
+</br>
+</br>
+
 3. Type in **FAILED_RDP_WITH_GEO_CL**, and click **Run**.
    * If no results are found, you may need to wait 15-20 minutes. Then try to run the query again.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/2261c0f7-5fac-41b9-a4b5-8af240c6cccf" height="80%" width="80%"/>
+</br>
+</br>
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/9e379d02-f5c6-4661-8e0e-45b36e9c3f4b" height="80%" width="80%"/>
+</br>
+</br>
+
 4. Once the query starts receiving information, view the items listed under **Results**.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/ce6468c5-b857-4026-9067-cdf307afe4bf" height="80%" width="80%"/>
+</br>
+</br>
+
 5. Check the **RawData** column to make sure it has all the information that is being collected in the failed_rdp.log file on your virtual machine.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/47472fab-1389-4a5e-b7de-a1319ad15877" height="80%" width="80%"/>
+</br>
+</br>
+
 6. You can perform some more failed logons, and run the query again to see that the new logs are added to the results.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/1bdee649-e660-4136-8166-915aee0ec644" height="80%" width="80%"/>
+</br>
+</br>
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/16bfe519-f5be-4d99-8dc4-4ec6ed3392a2" height="80%" width="80%"/>
+</br>
+</br>
 
 ### Part 13: Create a World Map Workbook in Microsoft Sentinel
 
