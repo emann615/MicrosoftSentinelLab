@@ -267,41 +267,41 @@ Microsoft Sentinel is a cloud based security information event management (SIEM)
 6. Find the entry with **EventID 4625**, and double click it to view the **Event Properties**.
    * This window will show you different information about the security event, such as the account name that was used, the failure reason, and the source network address.
 
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 ### Part 10: Create a Custom Log File Using PowerShell
 
 1. Click **Start** on the virtual machine, and open **Windows PowerShell ISE**.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/7c99748c-f5e9-4363-aad0-4baf0f86ec51" height="80%" width="80%"/>
 </br>
 </br>
 
 2. Click **New Script**.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/d48ad6c3-e37f-4b39-affa-7a29d3c9dc4c" height="80%" width="80%"/>
 </br>
 </br>
 
 3. Open **Microsoft Edge**, and go to the PowerShell script using the following link: https://github.com/emann615/Sentinel-Lab/blob/main/Custom_Security_Log_Exporter.ps1
 
-<img src="" height="80%" width="80%"/>
-</br>
-</br>
-
 4. Copy the script, and paste it into **PowerShell**.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/1a740172-d793-45e4-ae81-bab3b450f525" height="80%" width="80%"/>
 </br>
 </br>
 
 5. Go to the following link in **Microsoft Edge**: https://ipgeolocation.io/
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/0b151704-9de8-4c07-8744-7e9d7d86fa4d" height="80%" width="80%"/>
 </br>
 </br>
 
 6. Click **Get Free API Access**.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/e8d6aa77-bafd-47d4-a8ce-50de57b1b28f" height="80%" width="80%"/>
 </br>
 </br>
 
