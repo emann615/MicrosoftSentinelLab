@@ -21,6 +21,7 @@ Microsoft Sentinel is a cloud based security information event management (SIEM)
    * [Part 11: Create a Custom Table in Your Log Analytics Workspace](#Part-11-Create-a-Custom-Table-in-Your-Log-Analytics-Workspace)
    * [Part 12: Query the Custom Table](#Part-12-Query-the-Custom-Table)
    * [Part 13: Create a World Map Workbook in Microsoft Sentinel](#Part-13-Create-a-World-Map-Workbook-in-Microsoft-Sentinel)
+   * [Results](#Results)
 
 ## Languages and Utilities Used
 
@@ -856,14 +857,26 @@ FAILED_RDP_WITH_GEO_CL
 
 20. Click **Apply**.
 
-<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/6c8198bc-1cfe-4e7d-9743-44f73cfbdab6" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/7497dc54-229f-4086-b9f3-68ffae10f667" height="80%" width="80%"/>
 </br>
 </br>
 
 21. Click **Auto refresh**, and select **5 minutes**. Then click **Apply**.
 
-<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/254ba068-c9d4-45fa-a4d0-e058db587c31" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/616fda24-70a6-4b60-ad64-f662ac1665c3" height="80%" width="80%"/>
 </br>
 </br>
 
 22. Check this map throughout the day to see the number of failed RDP attempts and where they are coming from.
+
+## Results
+
+I left the virtual machine online for just over 24 hours and was able to identify over 29k RDP brute force attempts from all over the world.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/8b5249b4-9080-4128-ae15-a1ae662ebb87" height="80%" width="80%"/>
+</br>
+</br>
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/8ec50d25-4d9d-45c5-ba2b-6d963637b678" height="80%" width="80%"/>
+</br>
+</br>
