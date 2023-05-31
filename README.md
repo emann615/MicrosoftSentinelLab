@@ -42,7 +42,7 @@ Microsoft Sentinel is a cloud based security information event management (SIEM)
 
 <img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/f1a499e8-ce41-466e-b728-50f7493173f0" height="80%" width="80%" style="margin-bottom: 30x;"/>
 
-<div style="page-break-after: always; visibility: hidden"></div>
+<div style="page-break-after: always; visibility: hidden" height="30px"></div>
 
 2. Create or sign in with a Microsoft account.
 
