@@ -184,44 +184,44 @@ Microsoft Sentinel is a cloud based security information event management (SIEM)
 
 1. Type **log analytics** into the search box at the top of the page, and select **Log Analytics workspaces** listed under **Services**.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/73fea01e-9121-4771-b239-5ea612832954" height="80%" width="80%"/>
 </br>
 </br>
 
 2. Click **Create log analytics workspace**.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/cd0d13e5-d79f-46d2-8296-a3c8fc0774d7" height="80%" width="80%"/>
 </br>
 </br>
 
 3. Next to **Resource group**, select **Honeypotlab**.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/65b5343a-833c-4bd9-947d-a304cdc54ac4" height="80%" width="80%"/>
 </br>
 </br>
 
 4. Next to **Name**, type in **law-honeypot**.
    * I had to name it **law-honeypot4** because I did the lab multiple times.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/75d88a8b-8c8a-4416-9d0e-b2909134f0e1" height="80%" width="80%"/>
 </br>
 </br>
 
 5. Next to **Region**, select **West US 3**.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/27ebaa7b-5ba9-4d08-be1a-42c2806ceb63" height="80%" width="80%"/>
 </br>
 </br>
 
 6. Click **Review + Create**.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/21365a99-54db-467a-a2f1-5b789f105f7f" height="80%" width="80%"/>
 </br>
 </br>
 
 7. Click **Create**.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/3f4265d0-fd93-4b90-991b-398582b0a4b3" height="80%" width="80%"/>
 </br>
 </br>
 
