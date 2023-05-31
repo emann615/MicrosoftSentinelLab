@@ -222,12 +222,12 @@ FAILED_RDP_WITH_GEO_CL
 12. Click **Run Query**.
 13. Under **Visualization**, click the dropdown arrow, and select **Map**.
 14. Add the following settings:
-    * Location info using: **Latitude/Longitude**
-    * Latitude: **CSVFields_0**
-    * Longitude: **CSVFields_1**
-    * Size by: **event_count**
-    * Metric Label: **CSVFields_7**
-    * Metric Value: **event_count**
+    * **Location info using:** Latitude/Longitude
+    * **Latitude:** CSVFields_0
+    * **Longitude:** CSVFields_1
+    * **Size by:** event_count
+    * **Metric Label:** CSVFields_7
+    * **Metric Value:** event_count
 15. Click **Apply**. Then click **Save and Close** to save the map settings.
 16. Click **Save** to save the query.
 17. Under **Title**, type **Failed RDP World Map**.
