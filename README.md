@@ -242,21 +242,56 @@ Microsoft Sentinel is a cloud based security information event management (SIEM)
 ### Part 8: Disable Windows Defender Firewall on the Virtual Machine
 
 1. Click **Start** on your physical computer, and run **Command Prompt**.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/ad66a460-bd66-4fc1-8eb4-b7d84f7c30a8" height="80%" width="80%"/>
+</br>
+</br>
+
 2. Enter the the following command:
   ```
   ping <virtual machine IP address> -t
   ```
   * The ping request will time out because Windows Defender Firewall is blocking connections between your physical computer and the virtual machine.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/9b209935-eb9d-4ec2-98b0-4d9967a2fb6c" height="80%" width="80%"/>
+</br>
+</br>
+
 3. Go back to the virtual machine, click **Start**, and open **Windows Defender Firewall**.
    * Type **wf.msc** to go directly to the advanced settings.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/8b30b485-a2c7-45c8-a4b9-55fcbd626b4c" height="80%" width="80%"/>
+</br>
+</br>
+
 4. Click **Windows Defender Firewall Properties**.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/ca1d171f-ca9b-4f7f-a056-64868086c163" height="80%" width="80%"/>
+</br>
+</br>
+
 5. Go through the **Domain Profile**, **Private Profile**, and **Public Profile** tabs, and set the **Firewall state** to **Off**.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/d0f8a7cb-e851-4dc1-8059-2e8de82b4eb5" height="80%" width="80%"/>
+</br>
+</br>
+
 6. Click **Apply** and **OK**. 
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/b844f91f-6c2e-4ac5-98bc-ea32c8213092" height="80%" width="80%"/>
+</br>
+</br>
+
 7. Go back to **Command Prompt** on your physical computer.
    * The ping request should now be receiving replies back from the virtual machine.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/f2c1ebf8-8208-41bb-8e0b-24319990606f" height="80%" width="80%"/>
+</br>
+</br>
+
 8. Click **Close** to exit **Command Prompt**.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/3c671016-2735-4911-bdd8-7e33706b98c1" height="80%" width="80%"/>
 </br>
 </br>
 
