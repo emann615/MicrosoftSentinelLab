@@ -131,3 +131,23 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae mi nisi. Pell
 5. Go back to the virtual machine, right click inside **Event Viewer**, and click **Refresh**.
 6. Find the entry with **EventID 4625**, and double click it to view the **Event Properties**.
    * This window will show you different information about the security event, such as the account name that was used, the failure reason, and the source network address.
+
+### Part 10: Create a Custom Log File Using PowerShell
+
+1. Click **Start** on the virtual machine, and open **Windows PowerShell ISE**.
+2. Click **New Script**.
+3. Open **Microsoft Edge**, and go to the PowerShell script using the following link:
+4. Copy the script, and paste it into **PowerShell**.
+5. Go to the following link in **Microsoft Edge**: https://ipgeolocation.io/
+6. Click **Get Free API Access**.
+7. Fill out the name, email, and password information, and click **Sign Up**.
+   * You can also sign up using a Google or GitHub account.
+8. Once you are logged in, copy the API key.
+9. Paste the API key into the Powershell script next to **$API_KEY**.
+10. Save the PowerShell script under the name **Log_Exporter**.
+11. Click **Run Script**.
+    * The script will take failed RDP events from Windows Event Viewer and use the API key to find the geo location. Then it will output that information into a file named failed_rdp.log.
+12. Perform some more failed logons to see them added to the list.
+    * You can find the failed_rdp.log file by opening File Explorer and pasting in the following directory path: C:\ProgramData\
+      * File format: latitude, longitude, destination, username, source, state, country, label
+
