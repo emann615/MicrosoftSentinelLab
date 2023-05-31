@@ -213,18 +213,66 @@ Microsoft Sentinel is a cloud based security information event management (SIEM)
 ### Part 5: Connect the Virtual Machine to Your Log Analytics Workspace
 
 1. Type **log analytics** into the search box at the top of the page, and select **Log Analytics workspaces** listed under **Services**.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 2. Click **law-honeypot**.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 3. From the left menu options, select **Virtual machines**.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 4. Click **honeypot-vm**.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 5. Click **Connect**.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
 
 ### Part 6: Set Up Microsoft Sentinel
 
 1. Open a new tab in your web browser.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/38b5cf19-12a9-480c-96db-bf986d0c8508" height="80%" width="80%"/>
+</br>
+</br>
+
 2. Go to https://portal.azure.com/.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/91bd2b26-1589-4a54-b447-7b989625ad50" height="80%" width="80%"/>
+</br>
+</br>
+
 3. Type **sentinel** in the search box at the top of the page, and select **Microsoft Sentinel** listed under **Services**.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/0602cbd0-b3aa-4582-bd83-d8eed9099e2b" height="80%" width="80%"/>
+</br>
+</br>
+
 4. Click **Create Microsoft Sentinel**.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/53fd8490-4a57-44d5-a300-13de41f78219" height="80%" width="80%"/>
+</br>
+</br>
+
 5. Under **Workspace**, select **law-honeypot**, and click **Add**.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/ddaeaaf8-5ea0-48eb-a80a-bfddc8ef2752" height="80%" width="80%"/>
+</br>
+</br>
 
 ### Part 7: Connect to the Virtual Machine
 
