@@ -26,6 +26,7 @@ Microsoft Sentinel is a cloud based security information event management (SIEM)
 
 * **Microsoft Sentinel** 
 * **PowerShell**
+* **Kusto Query Language (KQL)**
 
 ## Environments Used
 
