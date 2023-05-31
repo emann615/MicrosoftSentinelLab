@@ -282,30 +282,109 @@ Microsoft Sentinel is a cloud based security information event management (SIEM)
 10. Save the PowerShell script under the name **Log_Exporter**.
 11. Click **Run Script**.
     * The script will take failed RDP events from Windows Event Viewer and use the API key to find the geolocation. Then it will output that information into a file named **failed_rdp.log**.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 12. Perform some more failed logons to see them added to the list.
     * You can find the failed_rdp.log file by opening **File Explorer** and pasting in the following directory path: **C:\ProgramData**
       * **File format:** latitude, longitude, destination, username, source, state, country, label, datetime
 
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 ### Part 11: Create a Custom Table in Your Log Analytics Workspace
 
 1. Open the **failed_rdp.log** file, and copy all the information.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/0742fc50-3102-40be-a6dd-46f1bee426d1" height="80%" width="80%"/>
+</br>
+</br>
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/2e86f678-0ce6-430d-81cc-99e8742f4bec" height="80%" width="80%"/>
+</br>
+</br>
+
 2. Go back to your physical computer, and create a new text document using **Notepad**.
+
 3. Paste the information from the **failed_rdp.log** file into the Notepad text document.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/6b4a9868-60d1-4727-af1d-f642d0da6931" height="80%" width="80%"/>
+</br>
+</br>
+
 4. Save the file to the **Desktop** folder of your physical computer under the name **failed_rdp**.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/1892d93d-8540-4df8-bdaf-2fab58a32aea" height="80%" width="80%"/>
+</br>
+</br>
+
 5. Go back to the log analytics workspace you created in Microsoft Azure named **law-honeypot**.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/e548c7bf-93b6-4f55-99df-8f5c8e685a38" height="80%" width="80%"/>
+</br>
+</br>
+
 6. Select **Tables** from the left menu options.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/32c16676-508f-4a65-bf77-e4bbd726cb4d" height="80%" width="80%"/>
+</br>
+</br>
+
 7. Click **Create**, and select **New custom log (MMA-based)**.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/0c5eb1cb-3ad4-4d46-9159-42b550fce742" height="80%" width="80%"/>
+</br>
+</br>
+
 8. Next to **Select a sample log**, click **Select a file**.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/2c773d5b-df10-4dd6-b6a8-3622a99170fb" height="80%" width="80%"/>
+</br>
+</br>
+
 9. Select the **failed_rdp** file you saved to the **Desktop** folder, and click **Open**.  
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/dedbd2ec-327a-441a-8195-67eae886e209" height="80%" width="80%"/>
+</br>
+</br>
+
 10. Click **Next**.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/601334c7-d1b1-411a-a4d5-f4ef4a36a383" height="80%" width="80%"/>
+</br>
+</br>
+
 11. Make sure the information under **Records** looks correct. Then click **Next**.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/a7942b38-bb93-4d22-a7c4-5d59e77321f1" height="80%" width="80%"/>
+</br>
+</br>
+
 12. Under **Type**, select **Windows**.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/45de51e9-6d56-4caf-845e-d826412c0340" height="80%" width="80%"/>
+</br>
+</br>
+
 13. Under **Path**, type in the path to the **failed_rdp.log** file on the virtual machine. Then click **Next**.
     * Path: **C:\ProgramData\failed_rdp.log**
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/ae397902-d2f9-4253-b6b9-1acfbd29e172" height="80%" width="80%"/>
+</br>
+</br>
+
 14. In the box next to **Custom log name**, type **FAILED_RDP_WITH_GEO**. Then click **Next**.
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/7b0ea1db-0616-4181-89ce-e378b1429b66" height="80%" width="80%"/>
+</br>
+</br>
+
 15. Click **Create** to create the custom table.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/bacfc6bd-2c9c-490a-b673-94533f8ee49d" height="80%" width="80%"/>
 </br>
 </br>
 
