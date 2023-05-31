@@ -124,62 +124,76 @@ Microsoft Sentinel is a cloud based security information event management (SIEM)
 
 12. Next to **Configure network security group**, click **Create new**.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/b6e065ea-825a-4678-ba3f-56552cd303d1" height="80%" width="80%"/>
 </br>
 </br>
 
 13. Under **Inbound rules**, click the three dots next to the default rule, and select **Remove**.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/ce9ceb9f-177c-4e7c-8f14-5ef1061fd2a9" height="80%" width="80%"/>
 </br>
 </br>
 
 14. Click **+ Add an inbound rule**.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/391aef57-7f5f-4917-b7ef-d0130a62ebd1" height="80%" width="80%"/>
 </br>
 </br>
 
 15. Under **Destination port ranges**, type "*" to select all ports.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/9e58942f-7df8-48e6-b510-b7cee68b927b" height="80%" width="80%"/>
 </br>
 </br>
 
 16. Under **Priority**, type **100**.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/f8759cea-5d5a-4fe3-bc4d-5adda721865f" height="80%" width="80%"/>
 </br>
 </br>
 
 17. Under **Name**, type **DANGER_ANY_IN**.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/7346abc4-2165-42b1-bf81-69c97f980ecd" height="80%" width="80%"/>
 </br>
 </br>
 
 18. Click **Add**, and click **OK**. 
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/ab5cb565-98af-458c-aba4-510f0f0d3202" height="80%" width="80%"/>
+</br>
+</br>
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/fbce371a-44d2-43b9-a456-6d1d6b9c1149" height="80%" width="80%"/>
 </br>
 </br>
 
 19. Click **Review + create**.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/e36ccdab-c5c9-4768-9a84-350cbf9d5280" height="80%" width="80%"/>
 </br>
 </br>
 
 20. Click **Create**.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/94f6f255-6ecb-4090-b65c-4152ae4d64ce" height="80%" width="80%"/>
 </br>
 </br>
 
 ### Part 3: Create a Log Analytics Workspace
 
 1. Type **log analytics** into the search box at the top of the page, and select **Log Analytics workspaces** listed under **Services**.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 2. Click **Create log analytics workspace**.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 3. Next to **Resource group**, select **Honeypotlab**.
 4. Next to **Name**, type in **law-honeypot**.
    * I had to name it **law-honeypot4** because I did the lab multiple times.
