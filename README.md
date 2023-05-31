@@ -2,7 +2,7 @@
 
 ## Description
 
-Microsoft Sentinel is a cloud based security information event management (SIEM) tool that helps organizations detect, investigate, and respond to threats. In this lab, I will show step-by-step how to set up Microsoft Sentinel and use it to observe real-time attacks against a virtual machine. I will also use a PowerShell script to create a custom log file with each attacker’s geolocation. Finally, I will set up a map to visualize this information in Microsoft Sentinel.
+Microsoft Sentinel is a cloud based security information event management (SIEM) tool that helps organizations detect, investigate, and respond to threats. In this lab, I will show step-by-step how to set up Microsoft Sentinel and use it to observe real-time attacks (RDP Brute Force) against a virtual machine. I will also use a PowerShell script to create a custom log file with each attacker’s geolocation. Finally, I will set up a map to visualize this information in Microsoft Sentinel.
 
 ## Table of Contents
 
