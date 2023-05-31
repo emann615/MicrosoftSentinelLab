@@ -374,7 +374,7 @@ Microsoft Sentinel is a cloud based security information event management (SIEM)
 
 10. Click **Add**, and select **Add query**.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/4cceda36-ccc8-4ae6-80a8-ee8eee810b90" height="80%" width="80%"/>
 </br>
 </br>
 
@@ -396,19 +396,27 @@ FAILED_RDP_WITH_GEO_CL
 | where CSVFields_4 != ""
 ```
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/56ac910d-f59e-411f-aafe-7bbe4bf830c1" height="80%" width="80%"/>
+</br>
+</br>
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/b5428458-31e0-4010-b60f-ec6de9c2dfea" height="80%" width="80%"/>
+</br>
+</br>
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/f755ce23-416a-49f8-9cc1-4e078fc9151d" height="80%" width="80%"/>
 </br>
 </br>
 
 12. Click **Run Query**.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/79a6b2bb-8312-4c34-be9e-513d870e6d42" height="80%" width="80%"/>
 </br>
 </br>
 
 13. Under **Visualization**, click the dropdown arrow, and select **Map**.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/22a2518e-db7f-465b-8cfa-b2de1b539de3" height="80%" width="80%"/>
 </br>
 </br>
 
@@ -420,54 +428,42 @@ FAILED_RDP_WITH_GEO_CL
     * **Metric Label:** CSVFields_7
     * **Metric Value:** event_count
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/3f18fa26-adef-47dc-9abf-6d32d77ad8d1" height="80%" width="80%"/>
+</br>
+</br>
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/af2247ad-f55c-45b7-9474-1418609ff854" height="80%" width="80%"/>
 </br>
 </br>
 
 15. Click **Apply**. Then click **Save and Close** to save the map settings.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/b2646138-d1b7-46da-a7a5-baacfe84fa3f" height="80%" width="80%"/>
 </br>
 </br>
 
 16. Click **Save** to save the query.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/ea8af3e8-118b-4ad6-ada6-782e78580e51" height="80%" width="80%"/>
 </br>
 </br>
 
 17. Under **Title**, type **Failed RDP World Map**.
 
-<img src="" height="80%" width="80%"/>
-</br>
-</br>
-
 18. Under **Resource group**, select **Honeypotlab**.
-
-<img src="" height="80%" width="80%"/>
-</br>
-</br>
 
 19. Under **Location**, select **(US) West US 3**.
 
-<img src="" height="80%" width="80%"/>
-</br>
-</br>
-
 20. Click **Apply**.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/6c8198bc-1cfe-4e7d-9743-44f73cfbdab6" height="80%" width="80%"/>
 </br>
 </br>
 
 21. Click **Auto refresh**, and select **5 minutes**. Then click **Apply**.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/254ba068-c9d4-45fa-a4d0-e058db587c31" height="80%" width="80%"/>
 </br>
 </br>
 
 22. Check this map throughout the day to see the number of failed RDP attempts and where they are coming from.
-
-<img src="" height="80%" width="80%"/>
-</br>
-</br>
