@@ -319,56 +319,68 @@ Microsoft Sentinel is a cloud based security information event management (SIEM)
 
 1. Click the search box at the top of the page, and select **Microsoft Sentinel** listed under **Recent services**.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/91487318-75ef-40b6-a3a4-3ef2d8f081f4" height="80%" width="80%"/>
 </br>
 </br>
 
 2. A pop up will appear that says “Your unsaved edits will be discarded”. Click **OK**.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/f28bfc9c-fd6e-4ddb-9f23-0aea7bd982fd" height="80%" width="80%"/>
 </br>
 </br>
 
 3. Click **law-honeypot**.
    * If you click the toggle next to **New overview**, you can switch between the old overview layout and the new overview layout.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/4d0ef6b3-6b6e-4b63-a7ce-3d70adbb669f" height="80%" width="80%"/>
+</br>
+</br>
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/c5e0648b-7b58-4543-bbb5-9b13a7f238b0" height="80%" width="80%"/>
+</br>
+</br>
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/954619b5-7733-4b81-83f2-470ae8b472ae" height="80%" width="80%"/>
 </br>
 </br>
 
 4. Select **Workbooks** from the left menu options.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/dc059283-5a00-453d-8d64-f1d38d472ea5" height="80%" width="80%"/>
 </br>
 </br>
 
 5. Click **Add workbook**.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/b977a591-6c09-4385-8e0b-708859d4ece5" height="80%" width="80%"/>
 </br>
 </br>
 
 6. Click **Edit**.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/3c9e214d-d960-4ace-a422-dfa9b08778d0" height="80%" width="80%"/>
 </br>
 </br>
 
 7. Delete the default queries by clicking the three dots next to **Edit** on the right side, and selecting **Remove**.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/05c62180-9e17-41a9-bc5d-d530b75fbf87" height="80%" width="80%"/>
 </br>
 </br>
 
 8. In the pop up that asks “Remove query?” click **Yes**.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/33de3740-f5a9-482f-9ce4-e5dcce0d629b" height="80%" width="80%"/>
 </br>
 </br>
 
 9. Repeat **steps 7-8** to remove the second default query.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/deecbcea-4cd2-472d-915d-a7c59adafa11" height="80%" width="80%"/>
+</br>
+</br>
+
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/bb913600-90f9-4a92-94ea-440a82a1ce3a" height="80%" width="80%"/>
 </br>
 </br>
 
