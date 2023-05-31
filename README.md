@@ -318,16 +318,66 @@ Microsoft Sentinel is a cloud based security information event management (SIEM)
 ### Part 13: Create a World Map Workbook in Microsoft Sentinel
 
 1. Click the search box at the top of the page, and select **Microsoft Sentinel** listed under **Recent services**.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 2. A pop up will appear that says “Your unsaved edits will be discarded”. Click **OK**.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 3. Click **law-honeypot**.
    * If you click the toggle next to **New overview**, you can switch between the old overview layout and the new overview layout.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 4. Select **Workbooks** from the left menu options.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 5. Click **Add workbook**.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 6. Click **Edit**.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 7. Delete the default queries by clicking the three dots next to **Edit** on the right side, and selecting **Remove**.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 8. In the pop up that asks “Remove query?” click **Yes**.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 9. Repeat **steps 7-8** to remove the second default query.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 10. Click **Add**, and select **Add query**.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 11. Copy and paste the following query:
 ```
 FAILED_RDP_WITH_GEO_CL
@@ -345,8 +395,23 @@ FAILED_RDP_WITH_GEO_CL
 | where CSVFields_2 != "samplehost"
 | where CSVFields_4 != ""
 ```
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 12. Click **Run Query**.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 13. Under **Visualization**, click the dropdown arrow, and select **Map**.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 14. Add the following settings:
     * **Location info using:** Latitude/Longitude
     * **Latitude:** CSVFields_0
@@ -354,11 +419,55 @@ FAILED_RDP_WITH_GEO_CL
     * **Size by:** event_count
     * **Metric Label:** CSVFields_7
     * **Metric Value:** event_count
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 15. Click **Apply**. Then click **Save and Close** to save the map settings.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 16. Click **Save** to save the query.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 17. Under **Title**, type **Failed RDP World Map**.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 18. Under **Resource group**, select **Honeypotlab**.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 19. Under **Location**, select **(US) West US 3**.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 20. Click **Apply**.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 21. Click **Auto refresh**, and select **5 minutes**. Then click **Apply**.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 22. Check this map throughout the day to see the number of failed RDP attempts and where they are coming from.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
