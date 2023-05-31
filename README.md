@@ -55,14 +55,20 @@ Microsoft Sentinel is a cloud based security information event management (SIEM)
 1. Once you’re logged into Azure, type **Virtual machines** in the search box at the top of the page. Then select **Virtual machines** listed under **Services**.
 
 <img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/4cdd3648-6040-4995-a92c-40cd89f9db9f" height="80%" width="80%"/>
+</br>
+</br>
 
 2. Click **Create**, and select **Azure virtual machine**.
 
 <img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/24a405ad-0c78-49c2-bf37-2a803505a633" height="80%" width="80%"/>
+</br>
+</br>
 
 3. Next to **Resource group**, click **Create new**.
 
 <img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/21fc764d-611a-4d67-8a61-d060a6eb4471" height="80%" width="80%"/>
+</br>
+</br>
 
 4. Name it **Honeypotlab**, and click **OK**.
 
