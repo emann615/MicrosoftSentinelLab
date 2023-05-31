@@ -17,14 +17,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae mi nisi. Pell
    * [Part 3: Create a Log Analytics Workspace](#Part-3-Create-a-Log-Analytics-Workspace)
    * [Part 4: Set Up Microsoft Defender](#Part-4-Set-Up-Microsoft-Defender)
    * [Part 5: Connect the Virtual Machine to Your Log Analytics Workspace](#Part-5-Connect-the-Virtual-Machine-to-Your-Log-Analytics-Workspace)
-   * [Prerequisite](#)
-   * [Prerequisite](#)
-   * [Prerequisite](#)
-   * [Prerequisite](#Prerequisite)
-   * [Prerequisite](#Prerequisite)
-   * [Prerequisite](#Prerequisite)
-   * [Prerequisite](#Prerequisite)
-   * [Prerequisite](#Prerequisite)
+   * [Part 6: Set Up Microsoft Sentinel](#Part-6-Set-Up-Microsoft-Sentinel)
+   * [Part 7: Connect to the Virtual Machine](#Part-7-Connect-to-the-Virtual-Machine)
+   * [Part 8: Disable Windows Defender Firewall on the Virtual Machine](#Part-8-Disable-Windows-Defender-Firewall-on-the-Virtual-Machine)
+   * [Part 9: View Failed Logons in Event Viewer](#Part-9-View-Failed-Logons-in-Event-Viewer)
+   * [Part 10: Create a Custom Log File Using PowerShell](#Part-10-Create-a-Custom-Log-File-Using-PowerShell)
+   * [Part 11: Create a Custom Table in Your Log Analytics Workspace](#Part-11-Create-a-Custom-Table-in-Your-Log-Analytics-Workspace)
+   * [Part 12: Query the Custom Table](#Part-12-Query-the-Custom-Table)
+   * [Part 13: Create a World Map Workbook in Microsoft Sentinel](#Part-13-Create-a-World-Map-Workbook-in-Microsoft-Sentinel)
 
 ## Languages and Utilities Used
 
