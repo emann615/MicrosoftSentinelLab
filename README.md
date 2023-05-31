@@ -107,16 +107,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae mi nisi. Pell
 ### Part 8: Disable Windows Defender Firewall on the Virtual Machine
 
 1. Click **Start** on your physical computer, and run **Command Prompt**.
-2. Type **ping <virtual machine IP address> -t**, and hit enter.
+2. Enter the the following command:
   ```
   ping <virtual machine IP address> -t
   ```
   * The ping request will time out because Windows Defender Firewall is blocking connections between your physical computer and the virtual machine.
-3. Go back to the virtual machine, click Start, and open Windows Defender Firewall.
-   * Type wf.msc to go directly to the advanced settings.
-4. Click Windows Defender Firewall Properties.
-5. Go through the Domain Profile, Private Profile, and Public Profile tabs, and set the Firewall state to Off.
-6. Click Apply and Ok. 
-7. Go back to Command Prompt on your physical computer.
+3. Go back to the virtual machine, click **Start**, and open **Windows Defender Firewall**.
+   * Type **wf.msc** to go directly to the advanced settings.
+4. Click **Windows Defender Firewall Properties**.
+5. Go through the **Domain Profile**, **Private Profile**, and **Public Profile** tabs, and set the **Firewall state** to **Off**.
+6. Click **Apply** and **OK**. 
+7. Go back to **Command Prompt** on your physical computer.
    * The ping request should now be receiving replies back from the virtual machine.
-8. Click Close to exit Command Prompt.
+8. Click **Close** to exit **Command Prompt**.
