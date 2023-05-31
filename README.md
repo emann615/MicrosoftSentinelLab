@@ -151,3 +151,21 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae mi nisi. Pell
     * You can find the failed_rdp.log file by opening File Explorer and pasting in the following directory path: C:\ProgramData\
       * File format: latitude, longitude, destination, username, source, state, country, label
 
+### Part 11: Create a Custom Table in Your Log Analytics Workspace
+
+1. Open the **failed_rdp.log** file, and copy all the information.
+2. Go back to your physical computer, and create a new text document using **Notepad**.
+3. Paste the information from the **failed_rdp.log** file into the Notepad text document.
+4. Save the file to the **Desktop** folder of your physical computer under the name **failed_rdp.log**.
+5. Go back to the log analytics workspace you created in Microsoft Azure named **law-honeypot**.
+6. Select **Tables** from the left menu options.
+7. Click **Create**, and select **New custom log (MMA-based)**.
+8. Next to **Select a sample log**, click **Select a file**.
+9. Select the **failed_rdp** file you saved to the **Desktop** folder, and click **Open**.  
+10. Click **Next**.
+11. Make sure the information under **Records** looks correct. Then click **Next**.
+12. Under **Type**, select **Windows**.
+13. Under **Path**, type in the path to the **failed_rdp.log** file on the virtual machine. Then click **Next**.
+    * **C:\ProgramData\failed_rdp.log**
+14. In the box next to **Custom log name**, type **FAILED_RDP_WITH_GEO**. Then click **Next**.
+15. Click **Create** to create the custom table.
