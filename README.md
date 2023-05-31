@@ -12,6 +12,18 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae mi nisi. Pell
 
    * [Languages and Utilities Used](#Languages-and-Utilities-Used)
    * [Environments Used](#Environments-Used)
+   * [Part 1: Create a Free Azure Account](#Part-1-Create-a-Free-Azure-Account)
+   * [Part 2: Create a Virtual Machine](#Part-2-Create-a-Virtual-Machine)
+   * [Part 3: Create a Log Analytics Workspace](#Part-3-Create-a-Log-Analytics-Workspace)
+   * [Part 4: Set Up Microsoft Defender](#Part-4-Set-Up-Microsoft-Defender)
+   * [Part 5: Connect the Virtual Machine to Your Log Analytics Workspace](#Part-5-Connect-the-Virtual-Machine-to-Your-Log-Analytics-Workspace)
+   * [Prerequisite](#)
+   * [Prerequisite](#)
+   * [Prerequisite](#)
+   * [Prerequisite](#Prerequisite)
+   * [Prerequisite](#Prerequisite)
+   * [Prerequisite](#Prerequisite)
+   * [Prerequisite](#Prerequisite)
    * [Prerequisite](#Prerequisite)
 
 ## Languages and Utilities Used
