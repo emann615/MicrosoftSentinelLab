@@ -1,12 +1,8 @@
 # Microsoft Sentinel (SIEM) Lab
 
 ## Description
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae mi nisi. Pellentesque et dui a enim cursus lobortis. Aliquam eleifend imperdiet libero, id imperdiet tellus aliquam in. Integer sed fringilla arcu, ac dignissim arcu. Suspendisse nec pellentesque turpis. Donec eget malesuada nunc. Morbi fermentum aliquet magna venenatis tincidunt. Ut imperdiet fermentum quam, malesuada pharetra orci. Quisque auctor ex et cursus aliquet.
 
-<div style="page-break-after: always; visibility: hidden"></div>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae mi nisi. Pellentesque et dui a enim cursus lobortis. Aliquam eleifend imperdiet libero, id imperdiet tellus aliquam in. Integer sed fringilla arcu, ac dignissim arcu. Suspendisse nec pellentesque turpis. Donec eget malesuada nunc. Morbi fermentum aliquet magna venenatis tincidunt. Ut imperdiet fermentum quam, malesuada pharetra orci. Quisque auctor ex et cursus aliquet.
-<br />
+Microsoft Sentinel is a cloud based security information event management (SIEM) tool that helps organizations detect, investigate, and respond to threats. In this lab, I will show step-by-step how to set up Microsoft Sentinel and use it to observe real-time attacks against a virtual machine. I will also use a PowerShell script to create a custom log file with each attacker’s geolocation. Finally, I will set up a map to visualize this information in Microsoft Sentinel.
 
 ## Table of Contents
 
