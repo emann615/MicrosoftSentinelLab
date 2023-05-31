@@ -204,41 +204,70 @@ Microsoft Sentinel is a cloud based security information event management (SIEM)
 ### Part 4: Set Up Microsoft Defender
 
 1. Type **defender** in the search box at the top of the page, and select **Microsoft Defender for Cloud** listed under **Services**.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 2. From the left menu options, select **Environment settings**.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 3. Click the dropdown arrow next to **Azure subscription 1**, and select **law-honeypot**. 
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 4. Under **Plan**, turn on **Foundation CSPM** and **Servers**. Then click **Save**.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 5. Select the **Data collection** tab.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
+
 6. Select **All Events**, and click **Save**.
+
+<img src="" height="80%" width="80%"/>
+</br>
+</br>
 
 ### Part 5: Connect the Virtual Machine to Your Log Analytics Workspace
 
 1. Type **log analytics** into the search box at the top of the page, and select **Log Analytics workspaces** listed under **Services**.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/697bab72-61b5-4e50-b7fe-b3c655633751" height="80%" width="80%"/>
 </br>
 </br>
 
 2. Click **law-honeypot**.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/171e0175-1bbe-44c3-ad1e-84ff6442a4d5" height="80%" width="80%"/>
 </br>
 </br>
 
 3. From the left menu options, select **Virtual machines**.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/d677a2dd-b9df-4099-935d-65a83466ca1a" height="80%" width="80%"/>
 </br>
 </br>
 
 4. Click **honeypot-vm**.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/ca0b901b-ccb1-4ca8-8865-534ffdba62db" height="80%" width="80%"/>
 </br>
 </br>
 
 5. Click **Connect**.
 
-<img src="" height="80%" width="80%"/>
+<img src="https://github.com/emann615/ActiveDirectoryLab/assets/117882385/fe246d32-0a9b-4ec8-95c6-0f92ce688f08" height="80%" width="80%"/>
 </br>
 </br>
 
