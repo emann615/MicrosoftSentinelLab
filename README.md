@@ -35,7 +35,7 @@ Microsoft Sentinel is a cloud based security information event management (SIEM)
 * **Microsoft Azure**
 * **Windows 10**
 
-## Walk-through
+## Walk-Through
 
 ### Part 1: Create a Free Azure Account
 
